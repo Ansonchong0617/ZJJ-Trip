@@ -132,12 +132,12 @@
         // --- Data Definitions ---
         const itineraryData = [
             { date: "2026-05-29", day: "Day 0", loc: "吉隆坡 > 长沙", trans: "Flight: Batik Airline 20:10 - 01:00", transType: "plane", itin: "入住酒店 - 长沙（五一广场附近）", hotel: "凤栖梧桐假日酒店", remark: "", exp: { t: 3124.0, k: 0, h: 133.21 } },
-            { date: "2026-05-30", day: "Day 1", loc: "长沙 > 张家界", trans: "HSR: ChangSha > ZJJWest (18:13-20:10)", transType: "train", itin: "橘子洲、岳麓山，岳麓山书院，湖南大学，岳麓山南路美食街(臭豆腐，笨萝卜)前往张家界。", hotel: "全季七十二奇楼酒店", remark: "HSR 时间可能会改", exp: { t: 349.0, k: 0, h: 562.0 } },
+            { date: "2026-05-30", day: "Day 1", loc: "长沙 > 张家界", trans: "HSR: ChangSha > ZJJWest (17:45-19:43)", transType: "train", itin: "橘子洲、岳麓山，岳麓山书院，湖南大学，岳麓山南路美食街(臭豆腐，笨萝卜)前往张家界。", hotel: "全季七十二奇楼酒店", remark: "HSR 时间可能会改", exp: { t: 349.0, k: 0, h: 562.0 } },
             { date: "2026-05-31", day: "Day 2", loc: "张家界森林公园", trans: "Klook 包车/门票包", transType: "navigation", itin: "深林公园标志门 - 百龙天梯 - 袁家界 - 天子山 - 天子索道下 - 十里画廊 (土家扣肉）", hotel: "全季七十二奇楼酒店", remark: "", exp: { t: 0, k: 1447.0, h: 0 } },
             { date: "2026-06-01", day: "Day 3", loc: "张家界天门山", trans: "Klook 包车/门票包", transType: "navigation", itin: "天门山 - 索道上 - 99弯通天大道 - 天门洞 - 穿山扶梯 - 鬼谷栈道 - 玻璃栈道 - 云梦星顶 - 索道下 - 夜游七十二奇楼 (胡师傅三下锅）", hotel: "全季七十二奇楼酒店", remark: "", exp: { t: 0, k: 108.0, h: 0 } },
-            { date: "2026-06-02", day: "Day 4", loc: "张家界 > 凤凰古城", trans: "HSR: ZJJWest > Feng Huang (9:42-10:34)", transType: "train", itin: "上午前往凤凰，沈从文故居，熊希龄故居，南华侨，万寿宫，沱江泛舟，万名塔，雪桥，吊脚楼，南华门，虹桥风雨楼 (血粑鸭，酸汤鱼，苗乡菜豆腐，姜糖）", hotel: "凤凰古城虹桥亚朵见野酒店", remark: "HSR 时间可能会改", exp: { t: 198.0, k: 0, h: 213.0 } },
-            { date: "2026-06-03", day: "Day 5", loc: "凤凰古城 > 长沙南", trans: "HSR: Feng Huang > Changsha Nan (10:26-12:43)", transType: "train", itin: "上午前往凤凰, 往长沙方向走， 五一广场商圈，黄兴路步行街，IFS 国金中心 ，东茅街茶馆。", hotel: "长沙酒店 (待定/未记录)", remark: "HSR 时间可能会改", exp: { t: 417.0, k: 0, h: 0 } },
-            { date: "2026-06-04", day: "Day 6", loc: "长沙 > 吉隆坡", trans: "Flight: Batik Airline 02:00 - 06:00", transType: "plane", itin: "准备返程，结束愉快的旅途！", hotel: "", remark: "", exp: { t: 0, k: 0, h: 0 } }
+            { date: "2026-06-02", day: "Day 4", loc: "张家界 > 凤凰古城", trans: "HSR: ZJJWest > Feng Huang (08:30-09:41)", transType: "train", itin: "上午前往凤凰，沈从文故居，熊希龄故居，南华侨，万寿宫，沱江泛舟，万名塔，雪桥，吊脚楼，南华门，虹桥风雨楼 (血粑鸭，酸汤鱼，苗乡菜豆腐，姜糖）", hotel: "凤凰古城虹桥亚朵见野酒店", remark: "HSR 时间可能会改", exp: { t: 198.0, k: 0, h: 213.0 } },
+            { date: "2026-06-03", day: "Day 5", loc: "凤凰古城 > 长沙南", trans: "HSR: Feng Huang > Changsha Nan (09:43-11:55)", transType: "train", itin: "上午前往凤凰, 往长沙方向走， 五一广场商圈，黄兴路步行街，IFS 国金中心 ，东茅街茶馆。", hotel: "长沙酒店 (待定/未记录)", remark: "HSR 时间可能会改", exp: { t: 417.0, k: 0, h: 0 } },
+            { date: "2026-06-04", day: "Day 6", loc: "长沙 > 吉隆坡", trans: "Flight: Batik Airline 02:00 - 06:50", transType: "plane", itin: "准备返程，结束愉快的旅途！", hotel: "", remark: "", exp: { t: 0, k: 0, h: 0 } }
         ];
 
         let dailyExtras = {};
